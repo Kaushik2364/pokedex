@@ -1,0 +1,13 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add smooth transitions for theme switch */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply transition-colors duration-300 ease-in-out;
+}
